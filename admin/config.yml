@@ -1,0 +1,131 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'assets/uploads'
+public_folder: '/assets/uploads'
+
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Home Page'
+        name: 'home'
+        file: 'content/pages/index.json'
+        format: 'json'
+        fields:
+          - { label: 'SEO Title', name: 'seoTitle', widget: 'string' }
+          - { label: 'SEO Description', name: 'seoDescription', widget: 'text' }
+          - {
+              label: 'SEO Keywords',
+              name: 'seoKeywords',
+              widget: 'text',
+              required: false,
+            }
+          - { label: 'OG Title', name: 'ogTitle', widget: 'string', required: false }
+          - {
+              label: 'OG Description',
+              name: 'ogDescription',
+              widget: 'text',
+              required: false,
+            }
+          - {
+              label: 'Twitter Title',
+              name: 'twitterTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Twitter Description',
+              name: 'twitterDescription',
+              widget: 'text',
+              required: false,
+            }
+          - {
+              label: 'Announcement Text',
+              name: 'announcementText',
+              widget: 'string',
+              required: false,
+            }
+          - { label: 'Hero Title Line 1', name: 'heroTitleLine1', widget: 'string' }
+          - { label: 'Hero Title Gradient', name: 'heroTitleGradient', widget: 'string' }
+          - {
+              label: 'Hero Highlight 1',
+              name: 'heroHighlight1',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Hero Highlight 2',
+              name: 'heroHighlight2',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Hero Description Tail',
+              name: 'heroDescriptionTail',
+              widget: 'text',
+              required: false,
+            }
+          - { label: 'User Count', name: 'userCount', widget: 'string', required: false }
+          - { label: 'Hero Note', name: 'heroNote', widget: 'text', required: false }
+          - {
+              label: 'Hero Panel Title',
+              name: 'panelTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Tool Section Title',
+              name: 'toolSectionTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Tool Section Description',
+              name: 'toolSectionDesc',
+              widget: 'text',
+              required: false,
+            }
+          - {
+              label: 'Exams Section Title',
+              name: 'examsSectionTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Exams Section Description',
+              name: 'examsSectionDesc',
+              widget: 'text',
+              required: false,
+            }
+          - {
+              label: 'How To Section Title',
+              name: 'howToSectionTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'FAQ Section Title',
+              name: 'faqSectionTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Privacy Section Title',
+              name: 'privacySectionTitle',
+              widget: 'string',
+              required: false,
+            }
+          - {
+              label: 'Footer About',
+              name: 'footerAbout',
+              widget: 'text',
+              required: false,
+            }
+          - {
+              label: 'Footer Copyright',
+              name: 'footerCopyright',
+              widget: 'string',
+              required: false,
+            }

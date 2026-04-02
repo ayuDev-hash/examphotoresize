@@ -1,0 +1,36 @@
+# robots.txt for examphotosize.in
+# Last updated: 14 March 2026
+
+# Allow all search engines to crawl everything
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://examphotosize.in/sitemap.xml
+
+# Block unnecessary paths
+Disallow: /cdn-cgi/
+Disallow: /.well-known/
+Disallow: /test/
+Disallow: /backup/
+Disallow: /admin/
+Disallow: /*.json$
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Google Image Bot - allow images
+User-agent: Googlebot-Image
+Allow: /
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Crawl-delay: 2

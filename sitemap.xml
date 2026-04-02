@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- HOME PAGE -->
+  <url>
+    <loc>https://examphotosize.in/</loc>
+    <lastmod>2025-07-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="hi" href="https://examphotosize.in/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://examphotosize.in/"/>
+    <image:image>
+      <image:loc>https://examphotosize.in/og-image.jpg</image:loc>
+      <image:title>Sarkari Photo Resize Tool Online - 20KB 50KB 100KB</image:title>
+      <image:caption>Free online photo resize tool for SSC Railway Bank UPSC sarkari forms</image:caption>
+    </image:image>
+  </url>
+
+  <!-- SSC PHOTO RESIZE -->
+  <url>
+    <loc>https://examphotosize.in/ssc-photo-resize.html</loc>
+    <lastmod>2025-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://examphotosize.in/og-ssc.jpg</image:loc>
+      <image:title>SSC Photo Resize - CGL CHSL MTS Photo Signature Size</image:title>
+    </image:image>
+  </url>
+
+  <!-- RAILWAY PHOTO RESIZE -->
+  <url>
+    <loc>https://examphotosize.in/railway-photo-resize.html</loc>
+    <lastmod>2025-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://examphotosize.in/og-railway.jpg</image:loc>
+      <image:title>Railway RRB Photo Resize - NTPC Group D Photo Size</image:title>
+    </image:image>
+  </url>
+
+  <!-- BANK IBPS PHOTO RESIZE -->
+  <url>
+    <loc>https://examphotosize.in/bank-ibps-photo-resize.html</loc>
+    <lastmod>2025-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://examphotosize.in/og-bank.jpg</image:loc>
+      <image:title>Bank IBPS Photo Resize - 200x230px PO Clerk Photo</image:title>
+    </image:image>
+  </url>
+
+
+  <!-- BPSC PHOTO RESIZE -->
+  <url>
+    <loc>https://examphotosize.in/bpsc-photo-resize.html</loc>
+    <lastmod>2025-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://examphotosize.in/og-bpsc.jpg</image:loc>
+      <image:title>BPSC Photo Resize - Bihar PSC Photo 50KB Size</image:title>
+    </image:image>
+  </url>
+
+  <!-- CTET PHOTO RESIZE -->
+  <url>
+    <loc>https://examphotosize.in/ctet-photo-resize.html</loc>
+    <lastmod>2025-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://examphotosize.in/og-ctet.jpg</image:loc>
+      <image:title>CTET Photo Resize - Teaching Exam Photo 100KB</image:title>
+    </image:image>
+  </url>
+
+
+</urlset>
